@@ -1,0 +1,52 @@
+#wrapper {
+    overflow: hidden;
+}
+
+#left {
+    float: left;
+}
+
+#right {
+    float: right;
+}
+
+#profile {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    transform: translateY(25%);
+}
+
+#logo {
+    margin-top: 10%;
+}
+
+.center {
+    text-align: center;
+}
+
+div {
+    margin: 15px;
+}
+
+input {
+    width: 408px;
+}
+
+button {
+    width: 136px;
+}
+
+a {
+    color: black;
+    opacity: 0.75;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 12px;
+    font-size: small;
+}
+
+i {
+    transform: translateY(25%);
+}
+
