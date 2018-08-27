@@ -2,12 +2,17 @@
     overflow: hidden;
 }
 
-#left {
+.left {
     float: left;
 }
 
-#right {
+.right {
     float: right;
+}
+
+#language {
+    opacity: 100%;
+    color: blue;
 }
 
 #profile {
@@ -21,8 +26,28 @@
     margin-top: 10%;
 }
 
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: #757575;
+    margin: 0 -9999rem;
+    padding: 0.25rem 9999rem;
+    background: #F2F2F2
+}
+
+.footer p {
+    color: rgba(0,0,0,.54);
+    margin: 0px 22px;
+}
+
 .center {
     text-align: center;
+}
+
+html, body {
+    overflow-x: hidden;
 }
 
 div {
@@ -30,11 +55,20 @@ div {
 }
 
 input {
-    width: 408px;
+    width: 544px;
+    line-height: 2em;
+    font-size: 16px;
+    background: url("voice.png") no-repeat right
 }
 
 button {
-    width: 136px;
+    width: 150px;
+    background-color: #f2f2f2;
+    color: #757575;
+    border: none;
+    padding: 12px;
+    font-size: 13px;
+    font-weight: bold;
 }
 
 a {
@@ -42,11 +76,16 @@ a {
     opacity: 0.75;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 12px;
+    margin: 0px 8px;
     font-size: small;
 }
 
 i {
     transform: translateY(25%);
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
 }
 
