@@ -1,1 +1,1 @@
-Using my beginner knowlegde in HTML and CSS, I am trying to recreate the Google homepage.
+Using my beginner knowlegde in HTML and CSS, I tried to recreate the Google homepage. It's not exact, but it looks very similar.
